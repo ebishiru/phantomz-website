@@ -16,6 +16,9 @@ export default function Header() {
                     <Link href="/">PhantomZ</Link>
                     <Link href="/about">About</Link>
                     <Link href="/contact">Contact</Link>
+                    <a href="https://buymeacoffee.com/ebishiru">
+                        <Image src="/coffee-icon.png" alt="Coffee icon" width={32} height={32} className="[image-rendering:pixelated]" />
+                    </a>
                 </div>
             </nav>
             {/* Mobile Dropdown */}
@@ -23,6 +26,9 @@ export default function Header() {
                 <Link className="underline" href="/" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>PhantomZ</Link>
                 <Link className="underline" href="/about" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>About</Link>
                 <Link className="underline" href="/contact" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Contact</Link>
+                <a href="https://buymeacoffee.com/ebishiru">
+                    <Image src="/coffee-icon.png" alt="Coffee icon" width={32} height={32} className="[image-rendering:pixelated]" />
+                </a>
             </nav>
         </header>
     )
