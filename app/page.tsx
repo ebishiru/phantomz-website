@@ -11,7 +11,7 @@ export default function Home() {
         <ImageSlideShow />
       </div>
       {/* Download Button */}
-      <button className="w-40 bg-green-700 text-white mt-1 mb-2 py-2 px-4 rounded cursor-pointer hover:bg-green-600 hover:scale-125 transition-all duration-300 ease-out"><a href="https://play.google.com/store/apps/details?id=com.kevinlo.phantomz" target="_blank">Google Play Link</a></button>
+      <button className="w-40 bg-green-700 text-white mt-1 mb-2 py-2 px-4 rounded cursor-pointer hover:bg-green-600 hover:scale-125 transition-all duration-300 ease-out"><a href="https://play.google.com/store/apps/details?id=com.kevinlo.phantomz" target="_blank">Download on Google Play</a></button>
       {/* Short Description */}
       <div className="flex flex-col gap-4 p-4 m-4 rounded-3xl max-w-3xl">
         <p>The Last PhantomZ is a fast-paced 2D arcade action game where every move matters.</p>

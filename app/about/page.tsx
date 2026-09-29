@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function About() {
     return (
         <div className="flex flex-1 flex-col justify-center items-center text-center bg-neutral-900 text-yellow-300">
-            <h1 className="font-bold text-4xl p-2 m-4">How to Play</h1>
+            <h1 className="font-bold text-4xl p-2 m-4">How to Play PhantomZ - Pixel Art Boss Survival</h1>
             {/* Section 1 */}
             <div className="p-3 max-w-xl">
                 <div className="flex justify-center items-center gap-4 my-2">
